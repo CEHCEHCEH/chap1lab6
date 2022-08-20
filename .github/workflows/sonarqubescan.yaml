@@ -12,8 +12,8 @@ jobs:
      distribution: 'temurin'
      cache: maven
  -name: Build with Maven cloud
-  run: mvn -B verify sonar:sonar -Dsonar.projectKey=chap1lab7
--Dsonar.organization=abcde-123456789 -
+  run: mvn -B verify sonar:sonar -Dsonar.projectKey=(chap1lab7)
+-Dsonar.organization=(abcde-123456789) -
 Dsonar.host.url=https://sonarcloud.io -
 Dsonar.login=$SONAR_TOKEN
  env:
